@@ -1,0 +1,44 @@
+Console Error
+
+Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+See more info here: https://nextjs.org/docs/messages/react-hydration-error
+
+
+- data-new-gr-c-s-check-loaded="14.1228.0"
+- data-gr-ext-installed=""
+createUnhandledError
+../src/client/components/react-dev-overlay/internal/helpers/console-error.ts (14:35)
+formattedErrorMessage
+../src/client/components/react-dev-overlay/internal/helpers/use-error-handler.ts (30:34)
+console.error
+../src/client/components/globals/intercept-console-error.ts (32:11)
+emitPendingHydrationWarnings
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (4299:1)
+completeWork
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (13610:1)
+runWithFiberInDEV
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (543:1)
+completeUnitOfWork
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (15199:1)
+performUnitOfWork
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (15080:1)
+workLoopConcurrent
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (15057:1)
+renderRootConcurrent
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (15032:1)
+performWorkOnRoot
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (14349:1)
+performWorkOnRootViaSchedulerTask
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (15954:1)
+MessagePort.performWorkUntilDeadline
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js (44:1)
+Hide ignored frames

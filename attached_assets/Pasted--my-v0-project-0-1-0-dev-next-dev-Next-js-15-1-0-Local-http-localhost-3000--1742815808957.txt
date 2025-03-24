@@ -1,0 +1,103 @@
+> my-v0-project@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.1.0
+   - Local:        http://localhost:3000
+   - Network:      http://172.31.128.53:3000
+   - Experiments (use with caution):
+     · webpackBuildWorker
+     · parallelServerCompiles
+     · parallelServerBuildTraces
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 2.5s
+ ○ Compiling / ...
+ ✓ Compiled / in 15.4s (874 modules)
+ GET / 200 in 16068ms
+ ✓ Compiled in 2.3s (417 modules)
+ ✓ Compiled in 2.3s (417 modules)
+ ✓ Compiled in 678ms (417 modules)
+ ✓ Compiled in 324ms (417 modules)
+ ✓ Compiled in 392ms (417 modules)
+ ✓ Compiled in 771ms (417 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 757ms (448 modules)
+ ⨯ ReferenceError: BottomNav is not defined
+    at BottomNav (app/layout.tsx:21:11)
+  19 |             <Chat />
+  20 |           </div>
+> 21 |           <BottomNav />
+     |           ^
+  22 |         </AuthProvider>
+  23 |       </body>
+  24 |     </html> {
+  digest: '1162503327'
+}
+ GET / 500 in 1053ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 2.2s (869 modules)
+ ⨯ ReferenceError: BottomNav is not defined
+    at BottomNav (app/layout.tsx:21:11)
+  19 |             <Chat />
+  20 |           </div>
+> 21 |           <BottomNav />
+     |           ^
+  22 |         </AuthProvider>
+  23 |       </body>
+  24 |     </html> {
+  digest: '1162503327'
+}
+ ⨯ ReferenceError: BottomNav is not defined
+    at BottomNav (app/layout.tsx:21:11)
+  19 |             <Chat />
+  20 |           </div>
+> 21 |           <BottomNav />
+     |           ^
+  22 |         </AuthProvider>
+  23 |       </body>
+  24 |     </html> {
+  digest: '1162503327'
+}
+ GET /_next/static/chunks/main-app.js 500 in 2402ms
+ GET /_next/static/chunks/app-pages-internals.js 500 in 1585ms
+ ⨯ ReferenceError: BottomNav is not defined
+    at BottomNav (app/layout.tsx:21:11)
+  19 |             <Chat />
+  20 |           </div>
+> 21 |           <BottomNav />
+     |           ^
+  22 |         </AuthProvider>
+  23 |       </body>
+  24 |     </html> {
+  digest: '1162503327'
+}
+ GET / 500 in 91ms
+ ⨯ ReferenceError: BottomNav is not defined
+    at BottomNav (app/layout.tsx:21:11)
+  19 |             <Chat />
+  20 |           </div>
+> 21 |           <BottomNav />
+     |           ^
+  22 |         </AuthProvider>
+  23 |       </body>
+  24 |     </html> {
+  digest: '1162503327'
+}
+ ⨯ ReferenceError: BottomNav is not defined
+    at BottomNav (app/layout.tsx:21:11)
+  19 |             <Chat />
+  20 |           </div>
+> 21 |           <BottomNav />
+     |           ^
+  22 |         </AuthProvider>
+  23 |       </body>
+  24 |     </html> {
+  digest: '1162503327'
+}
+ GET /_next/static/chunks/main-app.js 500 in 45ms
+ GET /_next/static/chunks/app-pages-internals.js 500 in 23ms

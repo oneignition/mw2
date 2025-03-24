@@ -1,0 +1,36 @@
+Unhandled Runtime Error
+
+TypeError: (0 , _hooks_use_mobile__WEBPACK_IMPORTED_MODULE_11__.useMobile) is not a function
+
+Source
+app/page.tsx (54:43) @ useMobile
+
+  52 |   ]
+  53 |
+> 54 |   const { isMobile, platform } = useMobile()
+     |                                           ^
+  55 |   const isDevelopment = process.env.NODE_ENV === 'development'
+  56 |
+  57 |   // Allow access in development mode regardless of device
+react-stack-bottom-frame
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (23609:1)
+renderWithHooks
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (4645:1)
+updateFunctionComponent
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (8031:1)
+beginWork
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (9688:1)
+runWithFiberInDEV
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (543:1)
+performUnitOfWork
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (15063:1)
+workLoopSync
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (14887:39)
+renderRootSync
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (14867:1)
+performWorkOnRoot
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (14393:1)
+performWorkOnRootViaSchedulerTask
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js (15954:1)
+MessagePort.performWorkUntilDeadline
+node_modules/.pnpm/next@15.1.0_@babel+core@7.26.10_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js (44:1)
